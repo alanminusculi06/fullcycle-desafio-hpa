@@ -11,7 +11,7 @@ func main() {
 		x = x + Calc(x)
 		fmt.Println(x)
 	}
-	fmt.Println("Code.education Rocks! ")
+	fmt.Println("Code.education Rocks!")
 }
 
 func Calc(number float64) float64 {
