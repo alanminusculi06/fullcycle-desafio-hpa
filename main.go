@@ -7,7 +7,7 @@ import (
 
 func main() {
 	x := 0.0001
-	for i := 0; i <= 1000000; i++ {
+	for i := 0; i <= 100000; i++ {
 		x = x + Calc(x)
 		fmt.Println(x)
 	}
